@@ -3,9 +3,12 @@
 	"id": "oldmclogo",
 	"version": "${version}",
 	"name": "Classic Minecraft Logo",
-	"description": "Bring the old pixelated logo back.",
+	"description": "Port of the mod 'Classic Minecraft Logo' for Minecraft 26.3.",
 	"authors": [
 		"lassebq"
+	],
+	"contributors": [
+		"Mazeriio"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/classic-minecraft-logo",
@@ -30,9 +33,9 @@
 		}
 	],
 	"depends": {
-		"fabricloader": "*",
-		"minecraft": ">=1.20 <=1.21.1",
-		"java": ">=17",
+		"fabricloader": ">=0.19.5",
+		"minecraft": "26.3",
+		"java": ">=25",
 		"cloth-config2": "*"
 	},
 	"suggests": {
