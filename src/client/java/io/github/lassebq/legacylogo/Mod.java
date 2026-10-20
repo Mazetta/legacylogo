@@ -1,4 +1,4 @@
-package io.github.lassebq.oldmclogo;
+package io.github.lassebq.legacylogo;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
@@ -6,7 +6,7 @@ import net.fabricmc.api.ClientModInitializer;
 
 public class Mod implements ClientModInitializer {
 
-    public static final String MODID = "oldmclogo";
+    public static final String MODID = "legacylogo";
 
     public static ModAutoConfig config;
 

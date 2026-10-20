@@ -1,34 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "oldmclogo",
+	"id": "legacylogo",
 	"version": "${version}",
-	"name": "Classic Minecraft Logo",
-	"description": "Port of the mod 'Classic Minecraft Logo' for Minecraft 26.3.",
+	"name": "Legacy Logo",
+	"description": "A continuation of Classic Minecraft Logo, originally created by lassebq. Maintained and updated by Mazeriio for modern Minecraft versions.",
 	"authors": [
-		"lassebq"
-	],
-	"contributors": [
-		"Mazeriio"
+		"lassebq", "Mazeriio"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/project/classic-minecraft-logo",
-		"issues": "https://github.com/Lassebq/old-mc-logo-mod/issues",
-		"sources": "https://github.com/Lassebq/old-mc-logo-mod"
+		"homepage": "https://modrinth.com/mod/legacy-logo",
+		"issues": "https://github.com/Mazetta/legacylogo/issues",
+		"sources": "https://github.com/Mazetta/legacylogo"
 	},
 	"license": "MIT",
-	"icon": "assets/oldmclogo/icon.png",
+	"icon": "assets/legacylogo/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"modmenu": [
-			"io.github.lassebq.oldmclogo.ModMenuIntegration"
+			"io.github.lassebq.legacylogo.ModMenuIntegration"
 		],
 		"client": [
-			"io.github.lassebq.oldmclogo.Mod"
+			"io.github.lassebq.legacylogo.Mod"
 		]
 	},
 	"mixins": [
 		{
-			"config": "oldmclogo.client.mixins.json",
+			"config": "legacylogo.client.mixins.json",
 			"environment": "client"
 		}
 	],

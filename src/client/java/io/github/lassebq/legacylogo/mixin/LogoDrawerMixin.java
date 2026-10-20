@@ -1,8 +1,8 @@
-package io.github.lassebq.oldmclogo.mixin;
+package io.github.lassebq.legacylogo.mixin;
 
-import static io.github.lassebq.oldmclogo.Mod.MODID;
+import static io.github.lassebq.legacylogo.Mod.MODID;
 
-import io.github.lassebq.oldmclogo.Mod;
+import io.github.lassebq.legacylogo.Mod;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.LogoRenderer;
 import net.minecraft.client.renderer.RenderPipelines;

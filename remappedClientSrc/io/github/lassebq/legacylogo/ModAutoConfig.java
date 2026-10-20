@@ -1,4 +1,4 @@
-package io.github.lassebq.oldmclogo;
+package io.github.lassebq.legacylogo;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
